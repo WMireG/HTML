@@ -1,0 +1,56 @@
+/* Establecer márgenes y box-sizing en todos los elementos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Establecer la fuente global */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+/* Estilo de la tarjeta */
+.card {
+    width: 350px;
+    margin: 30px auto;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+    border-radius: 1em;
+}
+
+/* Estilo de la imagen dentro de la tarjeta */
+.card-img {
+    width: 100%;
+    display: block;
+    border-radius: 1em 1em 0 0;
+}
+
+/* Estilo del contenedor de la tarjeta */
+.card-container {
+    text-align: center;
+    padding: 40px 15px;
+    border-radius: 0 0 1em 1em;
+}
+
+/* Estilo del título de la tarjeta */
+.card-title {
+    margin-bottom: 10px;
+}
+
+/* Estilo del párrafo dentro de la tarjeta */
+.card-paragraph {
+    line-height: 1.5;
+    text-align: start;
+}
+
+/* Estilo del botón dentro de la tarjeta */
+.card-button {
+    display: inline-block;
+    background-color: #CC021C;
+    color: white;
+    text-decoration: none;
+    padding: 1em 2em;
+    margin-top: 1em;
+    border-radius: 2em;
+}
